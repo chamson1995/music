@@ -1,0 +1,244 @@
+#app {
+  height: 100vh;
+  overflow: hidden;
+}
+.music-container {
+  height: 100vh;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.music-container .material-icons {
+  background-color: #ee6e73;
+}
+.music-container nav #search {
+  height: 90%;
+  margin-top: 3px;
+  border-radius: 8px;
+}
+.music-container nav .material-icons {
+  background-color: transparent;
+}
+.music-container .row .col {
+  overflow-y: scroll;
+  height: 100%;
+}
+.music-container .row ::-webkit-scrollbar {
+  width: 10px;
+}
+.music-container .my-music {
+  border: 1px solid rgba(102, 102, 102, 0.3);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 9px 30px -6px, rgba(0, 0, 0, 0.04) 0px 18px 20px -10px, rgba(0, 0, 0, 0.04) 0px 18px 20px -10px, rgba(0, 0, 0, 0.04) 0px 10px 20px -10px;
+  position: relative;
+  height: 700px;
+  min-width: 760px;
+  max-width: 1220px;
+  margin: calc(50vh - 350px) auto;
+  overflow: hidden;
+}
+.music-container .my-music .sidenav {
+  position: absolute;
+}
+.music-container .my-music .type-list {
+  min-width: 240px;
+  padding-bottom: 80px;
+  padding-top: 12px;
+  height: calc(100% - 64px);
+}
+.music-container .my-music .type-list .material-icons {
+  background-color: transparent;
+}
+.music-container .my-music .type-list .collection {
+  border: 0;
+}
+.music-container .my-music .type-list .collection-item:hover {
+  background-color: #ee6e729f;
+}
+.music-container .my-music .type-list .collection-item {
+  transition: 0.3s ease-in-out;
+  border: 1px solid rgba(102, 102, 102, 0.185);
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+.music-container .my-music .type-list .collection-item.active {
+  background-color: #ee6e73;
+}
+.music-container .my-music .type-list.hide {
+  margin-left: -100%;
+}
+.music-container .my-music .type-list.show {
+  margin-left: 0;
+}
+.music-container .my-music .music-list {
+  height: calc(100% - 64px);
+  padding-bottom: 80px;
+}
+.music-container .my-music .music-list .card-title {
+  text-shadow: 0px 0px 30px black;
+}
+.music-container .my-music .music-list .card-content p,
+.music-container .my-music .music-list .card-content em {
+  line-height: 20px;
+  white-space: nowrap;
+  width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.music-container .my-music .music-min-panel {
+  position: absolute;
+  width: 100%;
+  z-index: 20;
+  bottom: 0;
+  left: 0;
+  height: 80px;
+  border-top: 1px solid rgba(102, 102, 102, 0.3);
+  box-shadow: 0 1px 8px 6px rgba(102, 102, 102, 0.2);
+}
+.music-container .my-music .music-min-panel .al-img {
+  background-color: white;
+  height: 80px;
+  width: 80px;
+  box-sizing: border-box;
+  float: left;
+  padding: 8px;
+}
+.music-container .my-music .music-min-panel .al-img img {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.226);
+  border-radius: 50%;
+  width: 100%;
+}
+.music-container .my-music .music-min-panel .al-img img.active {
+  animation: rotate 3s infinite linear;
+}
+.music-container .my-music .music-min-panel .right-panel {
+  float: left;
+  position: absolute;
+  left: 80px;
+  width: calc(100% - 80px);
+  height: 80px;
+  background-color: white;
+}
+.music-container .my-music .music-min-panel .right-panel .range-bar {
+  width: calc(100% - 300px);
+  height: 80px;
+}
+.music-container .my-music .music-min-panel .right-panel .range-bar .range {
+  position: relative;
+}
+.music-container .my-music .music-min-panel .right-panel .range-bar .range .bar-container {
+  height: 40px;
+}
+.music-container .my-music .music-min-panel .right-panel .range-bar .range .bar-container .bar,
+.music-container .my-music .music-min-panel .right-panel .range-bar .range .bar-container .dot {
+  position: absolute;
+  top: 15px;
+  left: 8px;
+  z-index: 60;
+  cursor: pointer;
+}
+.music-container .my-music .music-min-panel .right-panel .range-bar .range .bar-container .bar {
+  width: 100%;
+  background-color: rgba(0, 128, 0, 0.486);
+  height: 10px;
+  border-radius: 5px;
+}
+.music-container .my-music .music-min-panel .right-panel .range-bar .range .bar-container .dot {
+  cursor: grabbing;
+  position: absolute;
+  display: block;
+  width: 14px;
+  height: 14px;
+  top: 13px;
+  left: 5px;
+  border-radius: 50%;
+  background-color: khaki;
+}
+.music-container .my-music .music-min-panel .right-panel .action-panel {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 280px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes down {
+  0% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(110vh);
+  }
+}
+@keyframes toleft {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-50vw);
+  }
+}
+.fulldown {
+  position: absolute;
+  animation: down 20s infinite ease-in;
+  z-index: 999;
+}
+.toleft {
+  padding: 12px !important;
+  height: auto !important;
+  position: absolute;
+  animation: toleft 10s infinite ease-in;
+  -webkit-filter: blur(0px);
+  z-index: 10;
+  width: 230px !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  opacity: 0.5;
+  background-color: white !important;
+  transition: 0.15s ease-in-out;
+  line-height: 1.8em !important;
+  font-size: 1em !important;
+}
+.toleft img {
+  height: 40px !important;
+  width: 40px !important;
+  margin: 0 8px 0px 0 !important;
+}
+.toleft:hover {
+  position: absolute;
+  white-space: normal;
+  text-overflow: unset;
+  animation-play-state: paused;
+  z-index: 1000;
+  opacity: 1;
+  box-shadow: rgba(70, 7, 17, 0.2) 0px 9px 30px -6px, rgba(70, 7, 17, 0.04) 0px 18px 20px -10px, rgba(70, 7, 17, 0.04) 0px 18px 20px -10px, rgba(70, 7, 17, 0.04) 0px 10px 20px -10px;
+  -webkit-filter: blur(0px);
+}
+.list-enter-active,
+.list-leave-active {
+  transition: all 0.15s;
+}
+.list-enter,
+.list-leave-to {
+  opacity: 0;
+  transform: translateY(30px);
+}
+.sidenav-overlay {
+  position: absolute;
+}

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./css/googleicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/materialize.css">
+    <script src="./js/vue.js"></script>
+    <script src="./js/player.js"></script>
+    <script src="./js/axios.min.js"></script>
+</head>
+<body>
+
+    <div id="app" >
+        
+
+        <div class="music-container">
+            <div v-for="item in playing.comments" :style="'top:' + item.top"  class="chip toleft">
+                <img :src="item.user.avatarUrl+'?param=20y20'" alt="Contact Person">
+                {{item.content}}
+            </div>
+            <my-player></my-player>
+            
+            <div class="row my-music">
+                <!-- 顶栏 -->
+                <nav>
+                    <div class="nav-wrapper">
+                        <a href="#" class="brand-logo center">chamson's Music Box</a>
+                        <ul id="nav-mobile" class="left hide-on-med-and-down  waves-light">
+                            <li class="waves-effect"><a><i class="material-icons">queue_music</i></a></li>
+                        </ul> 
+                        <div id="search-wrap" class="input-field left">
+                            <input @keydown.enter="search" v-model="keyword" id="search" type= "search" required>
+                            <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                            <i class="material-icons">close</i>
+                        </div> 
+                    </div>
+                </nav>
+                <!-- 左边 类别面板 -->
+                    <div class="col m4 s12 type-list">
+                        <ul class="collection">
+                            <li v-for="item,index in typeList" class="collection-item avatar" :class="{'active':typeindex==index}" @click="loadList(index)">
+                                <i class="material-icons circle ">library_music</i>
+                                <!-- <img :src="currentList[index].al.picUrl+'?param=80y80'" alt="" class="circle responsive-img"> -->
+                                <span class="title">{{item}}</span>
+                                <p style="font-size: 12px;"> 这是一个类别<br>
+                                    可以通过上面的搜索框添加自己的把类别
+                                </p>
+                                <a href="#!" @click.stop="delTypeItem(index)" class="secondary-content"><i class="material-icons">delete_outline</i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                <!-- 右边 歌曲列表 -->
+                <div class="col m8 s12 music-list">
+                        <div class="row">
+                            <!-- 一个 -->
+                            <transition-group name="list" tag="p" mode="out-in">
+                                    <div class="col s6 l4 xl3" :key="index+'item.id'" v-for="item,index in currentList">
+                                        <div class="card">
+                                            <div class="card-image">
+                                            <img :src="item.al.picUrl +'?param=208y208'">
+                                            <!-- <span class="card-title">{{item.name}}</span> -->
+                                            <a @click="play(item.id,index)" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">play_arrow</i></a>
+                                            </div>
+                                            <div class="card-content">
+                                            <p>{{item.name}}</p>
+                                            <em>{{item.ar[0].name}}</em>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </transition-group>
+                        </div>
+                </div>
+                <!-- 音乐面板 -->
+                <!-- <div class="col l7 m12 s12 music-panel"></div> -->
+                <!-- 底部小面板 -->
+                <div class="music-min-panel">
+                        <div class="al-img">
+                            <img :class="{'active':playing.state}" :src="playing.img?playing.img+'?param=64y64' : './images/misic.png'" alt="">
+                        </div>
+
+                        <div class="right-panel">
+                            <div class="range-bar">
+                                <div class="range">
+                                    <div class="bar-container">
+                                        <p id="playing-bar" @click="barclicktogo" class="bar"></p>
+                                        <p :style="'left:' + playing.dotX + 'px' " id="playing-dot" class="dot" @mousedown="savedot" @mouseout="outdot" @mousemove="dragdot">
+                                        </p>
+                                    </div>
+                                    <div class="time-wrap">
+                                        <span class="left">{{playing.currentTime}}</span>
+                                        <span class="right">{{playing.duration}}</span>
+                                    </div>
+                                </div>
+                                <audio id="audio" :src="playing.url" volum='0.8' autoplay  @timeupdate="updatetime"></audio>
+                            </div>
+                            
+                            <div class="action-panel">
+                                <div>
+                                    <a @click="" class="btn-floating waves-effect waves-light red">
+                                        <i class="material-icons">mode_comment</i>
+                                    </a>
+                                    <a @click="" class="btn-floating waves-effect waves-light red">
+                                        <i class="material-icons">video_library</i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a @click="prevSong()" class="btn-floating waves-effect waves-light red">
+                                        <i class="material-icons">skip_previous</i>
+                                    </a>
+                                    <a @click="musicCtrl()" class="btn-floating btn-large waves-effect waves-light red">
+                                        <i v-if="playing.state==false" class="material-icons large">play_arrow</i>
+                                        <i v-if="playing.state==true" class="material-icons large">pause</i>
+                                    </a>
+                                    <a @click="nextSong()" class="btn-floating waves-effect waves-light red">
+                                        <i class="material-icons">skip_next</i>
+                                    </a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>             
+    </div>
+
+
+
+
+    <script>
+
+        
+
+        var vm = new Vue({
+            el:"#app",
+            components:{
+                'my-player':myPlayer
+            },
+            mounted() {
+                this.loadList(0)
+            },
+            data:{
+                typeList:["欧美","粤语","流行","热门","纯音乐","林俊杰","华晨宇"],
+                currentList:[],
+                playing:{
+                    url:"",
+                    img:"",
+                    index:0,
+                    state:false,
+                    dotX:0,
+                    candrag:true,
+                    currentTime:0,
+                    duration:0,
+                    comments:[]
+                },
+                keyword:"",
+                typeindex:0
+            },
+            methods: {
+                play:function(id,index){
+                    var self = this
+                    axios.get("https://apimusic.linweiqin.com/song/url?id="+id)
+                    .then(res=>{
+                        self.playing.url = res.data.data[0].url
+                        self.playing.img = this.currentList[index].al.picUrl
+                        self.playing.state =true
+                        self.playing.index = index
+                        self.playing.imgactive = true
+                    })
+                    this.getComment(id)
+                },
+                nextSong:function(){
+                    var index = (this.playing.index+1)%this.currentList.length
+                    this.play(this.currentList[index].id,index)
+                },
+                prevSong:function(){
+                    var index = (this.playing.index-1+this.currentList.length)%this.currentList.length
+                    this.play(this.currentList[index].id,index)
+                },
+                musicCtrl:function(){
+                    var audio = document.getElementById("audio")
+                    if(audio.currentSrc==""){
+                        this.play(this.currentList[0].id,0)
+                    }else{
+                        if(audio.paused){
+                            audio.play()
+                            this.playing.state = true
+                        }else{
+                            audio.pause()
+                            this.playing.state = false
+                        }
+                    }
+                },
+                updatetime:function(){
+                    var bar_width = document.getElementById("playing-bar").offsetWidth
+                    var audio = document.getElementById("audio")
+                    var persent = parseFloat(audio.currentTime / audio.duration)
+                    if(audio.ended){
+                        this.nextSong()
+                    }
+                    this.playing.dotX = persent * bar_width 
+                    this.playing.currentTime = parseInt(audio.currentTime/60) + ":" + (parseInt(audio.currentTime%60)<10?("0"+parseInt(audio.currentTime%60)):parseInt(audio.currentTime%60))
+                    this.playing.duration =audio.duration? parseInt(audio.duration/60) + ":" + (parseInt(audio.duration%60)<10?("0"+parseInt(audio.duration%60)):parseInt(audio.duration%60)) :"00:00"
+                    
+                },
+                savedot:function(){
+                    this.playing.candrag = false
+                    audio.pause()
+                },
+                dragdot:function(e){
+                    if(!this.playing.candrag){
+                        this.playing.dotX = parseFloat(e.target.style.left) + e.offsetX - 7
+                    }
+                },
+                barclicktogo:function(e){
+                    var bar_width = document.getElementById("playing-bar").offsetWidth
+                    var audio = document.getElementById("audio")
+                    var persent = (parseInt(e.offsetX)-7) / bar_width
+                    this.playing.dotX = persent*bar_width
+                    if(this.playing.url!=""){
+                        audio.currentTime = persent * audio.duration
+                    }
+                },
+                outdot:function(){
+                    if(!this.playing.candrag){
+                        var bar_width = document.getElementById("playing-bar").offsetWidth
+                        var audio = document.getElementById("audio")
+                        var persent =parseInt(this.playing.dotX) / bar_width
+                        if(this.playing.url!=""){
+                            audio.currentTime = persent * audio.duration
+                            audio.play()
+                            this.playing.candrag = true 
+                        }
+                    }
+                },
+                loadList:function(index){
+                    var self = this
+                    var ids = ""
+                    axios.get("https://apimusic.linweiqin.com/search?keywords=" + this.typeList[index]).then(res=>{
+                        res.data.result.songs.forEach((element,index) => {
+                            if(index == res.data.result.songs.length -1){
+                                ids += element.id
+                            }else{
+                                ids += element.id +","
+                            }
+                        });
+                    }).then(function(){
+                        axios.get("https://apimusic.linweiqin.com/song/detail?ids="+ids).then(function(res){
+                            // self.currentList = res.data.songs
+
+                            //列表阻隔加载 动画
+                            self.currentList = []
+                            var i = -1
+                            var timer = setInterval(() => {
+                                i +=1
+                                if(i >= res.data.songs.length){
+                                    clearInterval(timer)
+                                }else{
+                                    self.currentList.push(res.data.songs[i])
+                                } 
+                            }, 200);
+                        })
+                    })
+                    this.typeindex = index
+                },
+                search:function(){
+                    this.typeList.unshift(this.keyword)
+                    this.loadList(0)
+                    this.keyword=""
+                },
+                delTypeItem:function(index){
+                    this.typeList.splice(index,1)
+                },
+                getComment:function(id){
+                    var self = this
+                    axios.get("https://apimusic.linweiqin.com/comment/hot?type=0&id="+id).then(res=>{
+                        // self.playing.comments = res.data.hotComments
+                        var i = -1
+                        self.playing.comments = []
+                        var timer = setInterval(() => {
+                            i +=1
+                            if(i >= res.data.hotComments.length){
+                                clearInterval(timer)
+                            }else{
+                                var temp = res.data.hotComments[i]
+                                temp.top =  Math.random()*90 +"vh"
+                                self.playing.comments.push(temp)
+                            } 
+                        }, 1500);
+                    })
+                }
+            },
+            
+        })
+    </script>
+</body>
+<script src="./js/materialize.js"></script>
+</html>

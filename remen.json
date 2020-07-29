@@ -1,0 +1,1496 @@
+{
+    "result": {
+        "songs": [
+            {
+                "id": 557584888,
+                "name": "往后余生",
+                "artists": [
+                    {
+                        "id": 13609637,
+                        "name": "马良",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 38594296,
+                    "name": "往后余生",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1526400000000,
+                    "size": 2,
+                    "copyrightId": -1,
+                    "status": 1,
+                    "picId": 109951165102985660,
+                    "mark": 0
+                },
+                "duration": 195925,
+                "copyrightId": 0,
+                "status": 0,
+                "alias": [],
+                "rtype": 0,
+                "ftype": 0,
+                "mvid": 0,
+                "fee": 8,
+                "rUrl": null,
+                "mark": 0
+            },
+            {
+                "id": 1293886117,
+                "name": "年少有为",
+                "artists": [
+                    {
+                        "id": 4292,
+                        "name": "李荣浩",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 73914415,
+                    "name": "耳朵",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1539705600000,
+                    "size": 10,
+                    "copyrightId": 7002,
+                    "status": 3,
+                    "picId": 109951163606377170,
+                    "mark": 0
+                },
+                "duration": 278989,
+                "copyrightId": 7002,
+                "status": 0,
+                "alias": [],
+                "rtype": 0,
+                "ftype": 0,
+                "mvid": 5965802,
+                "fee": 8,
+                "rUrl": null,
+                "mark": 8192
+            },
+            {
+                "id": 36270426,
+                "name": "来自天堂的魔鬼",
+                "artists": [
+                    {
+                        "id": 7763,
+                        "name": "G.E.M.邓紫棋",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 3189002,
+                    "name": "新的心跳",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1446739200007,
+                    "size": 10,
+                    "copyrightId": 27001,
+                    "status": 0,
+                    "picId": 1364493930777368,
+                    "mark": 0
+                },
+                "duration": 245493,
+                "copyrightId": 1415926,
+                "status": 0,
+                "alias": [],
+                "rtype": 0,
+                "ftype": 0,
+                "mvid": 503273,
+                "fee": 8,
+                "rUrl": null,
+                "mark": 0
+            },
+            {
+                "id": 1313354324,
+                "name": "出山",
+                "artists": [
+                    {
+                        "id": 8103,
+                        "name": "花粥",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    {
+                        "id": 9808,
+                        "name": "王胜娚",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 73587275,
+                    "name": "粥请客（四）",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1538064000000,
+                    "size": 2,
+                    "copyrightId": -1,
+                    "status": 3,
+                    "picId": 109951163573311340,
+                    "mark": 0
+                },
+                "duration": 200388,
+                "copyrightId": 0,
+                "status": 0,
+                "alias": [],
+                "rtype": 0,
+                "ftype": 0,
+                "mvid": 0,
+                "fee": 8,
+                "rUrl": null,
+                "mark": 262144
+            },
+            {
+                "id": 1338695683,
+                "name": "起风了",
+                "artists": [
+                    {
+                        "id": 187229,
+                        "name": "吴青峰",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 75116936,
+                    "name": "起风了",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1547136000000,
+                    "size": 2,
+                    "copyrightId": 1416018,
+                    "status": 0,
+                    "picId": 109951163785600030,
+                    "alia": [
+                        "电视剧《加油，你是最棒的》主题曲"
+                    ],
+                    "mark": 0
+                },
+                "duration": 313565,
+                "copyrightId": 1416018,
+                "status": 0,
+                "alias": [
+                    "电视剧《加油，你是最棒的》主题曲"
+                ],
+                "rtype": 0,
+                "ftype": 0,
+                "mvid": 10880673,
+                "fee": 8,
+                "rUrl": null,
+                "mark": 8192
+            },
+            {
+                "id": 1341964346,
+                "name": "你的酒馆对我打了烊",
+                "artists": [
+                    {
+                        "id": 12382970,
+                        "name": "陈雪凝",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 75302730,
+                    "name": "你的酒馆对我打了烊",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1548394617415,
+                    "size": 1,
+                    "copyrightId": 0,
+                    "status": 0,
+                    "picId": 109951163816225570,
+                    "mark": 0
+                },
+                "duration": 251428,
+                "copyrightId": 0,
+                "status": 0,
+                "alias": [],
+                "rtype": 0,
+                "ftype": 0,
+                "mvid": 0,
+                "fee": 8,
+                "rUrl": null,
+                "mark": 262144
+            },
+            {
+                "id": 486814412,
+                "name": "沙漠骆驼",
+                "artists": [
+                    {
+                        "id": 12475735,
+                        "name": "展展与罗罗",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 35663419,
+                    "name": "沙漠骆驼",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1497801600007,
+                    "size": 2,
+                    "copyrightId": 1403818,
+                    "status": 0,
+                    "picId": 109951163111639180,
+                    "mark": 0
+                },
+                "duration": 338045,
+                "copyrightId": 1403818,
+                "status": 0,
+                "alias": [],
+                "rtype": 0,
+                "ftype": 0,
+                "mvid": 10842099,
+                "fee": 8,
+                "rUrl": null,
+                "mark": 0
+            },
+            {
+                "id": 574566207,
+                "name": "盗将行",
+                "artists": [
+                    {
+                        "id": 8103,
+                        "name": "花粥",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    {
+                        "id": 826336,
+                        "name": "马雨阳",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 39752444,
+                    "name": "粥请客（二）",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1529366400000,
+                    "size": 2,
+                    "copyrightId": 0,
+                    "status": 0,
+                    "picId": 109951163555860420,
+                    "mark": 0
+                },
+                "duration": 198126,
+                "copyrightId": 0,
+                "status": 0,
+                "alias": [],
+                "rtype": 0,
+                "ftype": 0,
+                "mvid": 0,
+                "fee": 8,
+                "rUrl": null,
+                "mark": 262144
+            },
+            {
+                "id": 1372796676,
+                "name": "那女孩对我说 (完整版)",
+                "artists": [
+                    {
+                        "id": 32208979,
+                        "name": "Uu",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 79882922,
+                    "name": "那女孩对我说",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1561996800000,
+                    "size": 2,
+                    "copyrightId": 1372818,
+                    "status": 0,
+                    "picId": 109951164161042600,
+                    "mark": 0
+                },
+                "duration": 280555,
+                "copyrightId": 1372818,
+                "status": 0,
+                "alias": [],
+                "rtype": 0,
+                "ftype": 0,
+                "mvid": 0,
+                "fee": 8,
+                "rUrl": null,
+                "mark": 0
+            },
+            {
+                "id": 557581476,
+                "name": "去年夏天",
+                "artists": [
+                    {
+                        "id": 13128032,
+                        "name": "王大毛",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 38594184,
+                    "name": "去年夏天",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1525795200007,
+                    "size": 3,
+                    "copyrightId": 22023,
+                    "status": 0,
+                    "picId": 109951163293243870,
+                    "mark": 0
+                },
+                "duration": 245026,
+                "copyrightId": 1415925,
+                "status": 0,
+                "alias": [],
+                "rtype": 0,
+                "ftype": 0,
+                "mvid": 0,
+                "fee": 8,
+                "rUrl": null,
+                "mark": 0
+            },
+            {
+                "id": 483671599,
+                "name": "追光者",
+                "artists": [
+                    {
+                        "id": 7409,
+                        "name": "岑宁儿",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 35644242,
+                    "name": "夏至未至 影视原声带",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1497801600007,
+                    "size": 8,
+                    "copyrightId": 414012,
+                    "status": 0,
+                    "picId": 19149094509535910,
+                    "mark": 0
+                },
+                "duration": 235833,
+                "copyrightId": 1416401,
+                "status": 0,
+                "alias": [
+                    "电视剧《夏至未至》插曲"
+                ],
+                "rtype": 0,
+                "ftype": 0,
+                "mvid": 5563801,
+                "fee": 8,
+                "rUrl": null,
+                "mark": 0
+            },
+            {
+                "id": 516076896,
+                "name": "纸短情长（完整版）",
+                "artists": [
+                    {
+                        "id": 1021160,
+                        "name": "烟把儿",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 36686617,
+                    "name": "纸短情长（完整版）",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1509275494389,
+                    "size": 1,
+                    "copyrightId": 0,
+                    "status": 0,
+                    "picId": 109951163052534910,
+                    "mark": 0
+                },
+                "duration": 300153,
+                "copyrightId": 0,
+                "status": 0,
+                "alias": [],
+                "rtype": 0,
+                "ftype": 0,
+                "mvid": 5810734,
+                "fee": 8,
+                "rUrl": null,
+                "mark": 64
+            },
+            {
+                "id": 1330348068,
+                "name": "起风了",
+                "artists": [
+                    {
+                        "id": 12085562,
+                        "name": "买辣椒也用券",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 74715426,
+                    "name": "起风了",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1543766400000,
+                    "size": 3,
+                    "copyrightId": 1415923,
+                    "status": 0,
+                    "picId": 109951163699673360,
+                    "mark": 0
+                },
+                "duration": 325868,
+                "copyrightId": 1415923,
+                "status": 0,
+                "alias": [],
+                "rtype": 0,
+                "ftype": 0,
+                "mvid": 10782615,
+                "fee": 8,
+                "rUrl": null,
+                "mark": 8192
+            },
+            {
+                "id": 25706282,
+                "name": "夜空中最亮的星",
+                "artists": [
+                    {
+                        "id": 12977,
+                        "name": "逃跑计划",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 2285010,
+                    "name": "世界",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1325260800000,
+                    "size": 10,
+                    "copyrightId": 5003,
+                    "status": 1,
+                    "picId": 19193074974743620,
+                    "mark": 0
+                },
+                "duration": 252000,
+                "copyrightId": 5003,
+                "status": 0,
+                "alias": [],
+                "rtype": 0,
+                "ftype": 0,
+                "mvid": 382555,
+                "fee": 0,
+                "rUrl": null,
+                "mark": 0
+            },
+            {
+                "id": 1313725541,
+                "name": "爱一点（咚鼓版）",
+                "artists": [
+                    {
+                        "id": 12570153,
+                        "name": "浪子康",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 73609429,
+                    "name": "人走茶凉",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1538236800000,
+                    "size": 2,
+                    "copyrightId": 0,
+                    "status": 0,
+                    "picId": 109951163576148270,
+                    "mark": 0
+                },
+                "duration": 203091,
+                "copyrightId": 0,
+                "status": 0,
+                "alias": [],
+                "rtype": 0,
+                "ftype": 0,
+                "mvid": 0,
+                "fee": 0,
+                "rUrl": null,
+                "mark": 262144
+            },
+            {
+                "id": 1396973729,
+                "name": "大田後生仔",
+                "artists": [
+                    {
+                        "id": 29999237,
+                        "name": "丫蛋蛋",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 82413552,
+                    "name": "大田後生仔",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1570982400000,
+                    "size": 2,
+                    "copyrightId": -1,
+                    "status": 0,
+                    "picId": 109951164427560290,
+                    "mark": 0
+                },
+                "duration": 181978,
+                "copyrightId": 0,
+                "status": 0,
+                "alias": [
+                    "原唱：林啟得"
+                ],
+                "rtype": 0,
+                "ftype": 0,
+                "transNames": [
+                    "欢乐加速版"
+                ],
+                "mvid": 0,
+                "fee": 8,
+                "rUrl": null,
+                "mark": 0
+            },
+            {
+                "id": 208902,
+                "name": "红色高跟鞋",
+                "artists": [
+                    {
+                        "id": 7214,
+                        "name": "蔡健雅",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 21252,
+                    "name": "若你碰到他",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1250611200000,
+                    "size": 10,
+                    "copyrightId": 625015,
+                    "status": 1,
+                    "picId": 109951164795907020,
+                    "mark": 0
+                },
+                "duration": 206586,
+                "copyrightId": 625015,
+                "status": 0,
+                "alias": [],
+                "rtype": 0,
+                "ftype": 0,
+                "mvid": 5496541,
+                "fee": 1,
+                "rUrl": null,
+                "mark": 8192
+            },
+            {
+                "id": 526464293,
+                "name": "空空如也 ",
+                "artists": [
+                    {
+                        "id": 9255,
+                        "name": "任然",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 37087074,
+                    "name": "空空如也",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1514390400007,
+                    "size": 2,
+                    "copyrightId": 30002,
+                    "status": 0,
+                    "picId": 109951163094476380,
+                    "mark": 0
+                },
+                "duration": 213846,
+                "copyrightId": 1416392,
+                "status": 0,
+                "alias": [],
+                "rtype": 0,
+                "ftype": 0,
+                "mvid": 10931476,
+                "fee": 8,
+                "rUrl": null,
+                "mark": 0
+            },
+            {
+                "id": 441491828,
+                "name": "水星记",
+                "artists": [
+                    {
+                        "id": 2843,
+                        "name": "郭顶",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 35005583,
+                    "name": "飞行器的执行周期",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1480003200007,
+                    "size": 10,
+                    "copyrightId": 7003,
+                    "status": 3,
+                    "picId": 2946691248081599,
+                    "mark": 0
+                },
+                "duration": 325266,
+                "copyrightId": 7003,
+                "status": 0,
+                "alias": [],
+                "rtype": 0,
+                "ftype": 0,
+                "mvid": 5404031,
+                "fee": 8,
+                "rUrl": null,
+                "mark": 8192
+            },
+            {
+                "id": 28285910,
+                "name": "岁月神偷",
+                "artists": [
+                    {
+                        "id": 893259,
+                        "name": "金玟岐",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 2767540,
+                    "name": "金玟岐作品集",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1393776000007,
+                    "size": 13,
+                    "copyrightId": 0,
+                    "status": 0,
+                    "picId": 5998935441219557,
+                    "mark": 0
+                },
+                "duration": 162072,
+                "copyrightId": 0,
+                "status": 0,
+                "alias": [],
+                "rtype": 0,
+                "ftype": 0,
+                "mvid": 5917771,
+                "fee": 0,
+                "rUrl": null,
+                "mark": 0
+            },
+            {
+                "id": 1336856777,
+                "name": "我曾",
+                "artists": [
+                    {
+                        "id": 12429072,
+                        "name": "隔壁老樊",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 75019098,
+                    "name": "我曾",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1563811200000,
+                    "size": 14,
+                    "copyrightId": -1,
+                    "status": 0,
+                    "picId": 109951164232796510,
+                    "mark": 0
+                },
+                "duration": 285995,
+                "copyrightId": 0,
+                "status": 0,
+                "alias": [],
+                "rtype": 0,
+                "ftype": 0,
+                "mvid": 10858662,
+                "fee": 8,
+                "rUrl": null,
+                "mark": 32768
+            },
+            {
+                "id": 28018075,
+                "name": "你就不要想起我",
+                "artists": [
+                    {
+                        "id": 9548,
+                        "name": "田馥甄",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 2704008,
+                    "name": "渺小",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1384358400007,
+                    "size": 10,
+                    "copyrightId": 0,
+                    "status": -1,
+                    "picId": 109951163571315500,
+                    "mark": 0
+                },
+                "duration": 280524,
+                "copyrightId": 677020,
+                "status": 0,
+                "alias": [],
+                "rtype": 0,
+                "ftype": 0,
+                "mvid": 418026,
+                "fee": 8,
+                "rUrl": null,
+                "mark": 8704
+            },
+            {
+                "id": 571338279,
+                "name": "往后余生",
+                "artists": [
+                    {
+                        "id": 14312549,
+                        "name": "王贰浪",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 39591091,
+                    "name": "往后余生",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1528387200000,
+                    "size": 2,
+                    "copyrightId": 1372820,
+                    "status": 0,
+                    "picId": 109951163337847600,
+                    "mark": 0
+                },
+                "duration": 231785,
+                "copyrightId": 1372820,
+                "status": 0,
+                "alias": [
+                    "原唱：马良"
+                ],
+                "rtype": 0,
+                "ftype": 0,
+                "mvid": 0,
+                "fee": 1,
+                "rUrl": null,
+                "mark": 8192
+            },
+            {
+                "id": 460578140,
+                "name": "感谢你曾来过",
+                "artists": [
+                    {
+                        "id": 12292708,
+                        "name": "周思涵",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    {
+                        "id": 12287118,
+                        "name": "Ayo97",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 35178494,
+                    "name": "卧龙与酒",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1486853553686,
+                    "size": 3,
+                    "copyrightId": 0,
+                    "status": 0,
+                    "picId": 109951162859100530,
+                    "mark": 0
+                },
+                "duration": 250005,
+                "copyrightId": 1415984,
+                "status": 0,
+                "alias": [],
+                "rtype": 0,
+                "ftype": 0,
+                "mvid": 0,
+                "fee": 8,
+                "rUrl": null,
+                "mark": 64
+            },
+            {
+                "id": 1349292048,
+                "name": "心如止水",
+                "artists": [
+                    {
+                        "id": 12121264,
+                        "name": "Ice Paper",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 75350006,
+                    "name": "成语接龙",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1548759618554,
+                    "size": 8,
+                    "copyrightId": 0,
+                    "status": 0,
+                    "picId": 109951163938219550,
+                    "mark": 0
+                },
+                "duration": 185390,
+                "copyrightId": 0,
+                "status": 0,
+                "alias": [],
+                "rtype": 0,
+                "ftype": 0,
+                "mvid": 0,
+                "fee": 8,
+                "rUrl": null,
+                "mark": 0
+            },
+            {
+                "id": 1357785909,
+                "name": "野狼disco",
+                "artists": [
+                    {
+                        "id": 12084497,
+                        "name": "宝石Gem",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 83008035,
+                    "name": "野狼disco",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1567353600000,
+                    "size": 2,
+                    "copyrightId": -1,
+                    "status": 0,
+                    "picId": 109951164470147950,
+                    "mark": 0
+                },
+                "duration": 239198,
+                "copyrightId": 528012,
+                "status": 0,
+                "alias": [],
+                "rtype": 0,
+                "ftype": 0,
+                "mvid": 10909879,
+                "fee": 8,
+                "rUrl": null,
+                "mark": 0
+            },
+            {
+                "id": 518781004,
+                "name": "生僻字",
+                "artists": [
+                    {
+                        "id": 12095299,
+                        "name": "陈柯宇",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 36789430,
+                    "name": "生僻字",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1510597257772,
+                    "size": 2,
+                    "copyrightId": 0,
+                    "status": 0,
+                    "picId": 109951163062323120,
+                    "mark": 0
+                },
+                "duration": 216000,
+                "copyrightId": 0,
+                "status": 0,
+                "alias": [],
+                "rtype": 0,
+                "ftype": 0,
+                "mvid": 0,
+                "fee": 8,
+                "rUrl": null,
+                "mark": 0
+            },
+            {
+                "id": 553755659,
+                "name": "可不可以",
+                "artists": [
+                    {
+                        "id": 13906123,
+                        "name": "张紫豪",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 38385235,
+                    "name": "可不可以",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1535644800007,
+                    "size": 2,
+                    "copyrightId": 687012,
+                    "status": 0,
+                    "picId": 109951163252847250,
+                    "mark": 0
+                },
+                "duration": 240889,
+                "copyrightId": 687012,
+                "status": 0,
+                "alias": [],
+                "rtype": 0,
+                "ftype": 0,
+                "mvid": 0,
+                "fee": 8,
+                "rUrl": null,
+                "mark": 0
+            },
+            {
+                "id": 534542079,
+                "name": "侧脸",
+                "artists": [
+                    {
+                        "id": 12262303,
+                        "name": "于果",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 37467032,
+                    "name": "侧脸",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1517414400007,
+                    "size": 2,
+                    "copyrightId": 30012,
+                    "status": 0,
+                    "picId": 109951163127272430,
+                    "mark": 0
+                },
+                "duration": 217846,
+                "copyrightId": 1416503,
+                "status": 0,
+                "alias": [],
+                "rtype": 0,
+                "ftype": 0,
+                "mvid": 0,
+                "fee": 8,
+                "rUrl": null,
+                "mark": 64
+            },
+            {
+                "id": 531295576,
+                "name": "最美的期待",
+                "artists": [
+                    {
+                        "id": 10558,
+                        "name": "周笔畅",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    }
+                ],
+                "album": {
+                    "id": 37313151,
+                    "name": "最美的期待",
+                    "artist": {
+                        "id": 0,
+                        "name": "",
+                        "picUrl": null,
+                        "alias": [],
+                        "albumSize": 0,
+                        "picId": 0,
+                        "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+                        "img1v1": 0,
+                        "trans": null
+                    },
+                    "publishTime": 1521388800007,
+                    "size": 2,
+                    "copyrightId": 36031,
+                    "status": 0,
+                    "picId": 109951163115369020,
+                    "mark": 0
+                },
+                "duration": 210878,
+                "copyrightId": 1416673,
+                "status": 0,
+                "alias": [],
+                "rtype": 0,
+                "ftype": 0,
+                "mvid": 0,
+                "fee": 8,
+                "rUrl": null,
+                "mark": 65536
+            }
+        ],
+        "hasMore": true,
+        "songCount": 299
+    },
+    "code": 200
+}
